@@ -8,10 +8,10 @@
     <script src="js/helper.js"></script>
 </head>
 <body>
-    <section class="hero is-bold is-link is-medium">
+    <section class="hero is-bold is-black is-medium">
         <!-- Hero head: will stick at the top -->
         <div class="hero-head">
-            <nav class="navbar">
+            <nav class="navbar is-dark">
                 <div class="container">
                     <div class="navbar-brand">
                         <span class="navbar-burger burger" data-target="navbarMenuHeroA">
@@ -47,19 +47,19 @@
         </div>
 
         <!-- Hero content: will be in the middle -->
-        <div class="hero-body" style="background-color:#000">
+        <div class="hero-body">
             <div class="container has-text-centered" >
                 <div class="columns">
                     <div id="logo" class="column">
-                      <figure class="image" >
-                          <img src="img/pubg1.png" id="pubgLogo">
+                      <figure class="image is-3by1" >
+                          <img src="img/pubg1.png">
                       </figure>
-                        <h2 class="subtitle">
+                        <h2 class="title">
                             TOURNAMENTS
                         </h2>
                     </div>
-                    <div class="column">
-                        <br>
+                    <div id="register" class="column">
+                        <br><br><br>
                         <a href="signup.php" class="button is-warning is-large is-rounded">Register now!</a>
                     </div>
                 </div>
@@ -85,11 +85,11 @@
     </section>
 
 
-    <section id="banner" class="hero is-small" style="background-color:#343434">
+    <section id="banner" class="hero is-dark is-small">
           <br>
         <div class="hero-body">
             <div class="container">
-                <h1 class="title" style="color:#fff">
+                <h1 class="title">
                     Competitions
                 </h1>
                 <h2 class="subtitle">

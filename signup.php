@@ -149,7 +149,7 @@
             </label>
               <div class="upload-btn-wrapper">
 
-                <button class="btn">Upload image</button>
+                <button class="button">Upload image</button>
 
               <!--<input name="screenshot" class="input" type="url" placeholder="Enter link" value="">-->
                 <input type="file" name="pic" accept="image/*">
@@ -201,7 +201,7 @@
             </a>
             <br>
             <p>
-                <a href="registrations.php">View Registrations</a>
+                <a href="view_reg.php">View Registrations</a>
             </p>
         </div>
     </footer>
