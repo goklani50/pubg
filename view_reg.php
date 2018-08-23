@@ -135,7 +135,7 @@ if (isset($_SESSION['u_id'])) {
             </a>
             <br>
             <p>
-                <a href="registrations.php">View Registrations</a>
+                <a href="view_reg.php">View Registrations</a>
             </p>
             <p>
                 <a href="logout.php">Logout</a>
